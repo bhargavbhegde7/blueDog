@@ -8,11 +8,20 @@ body{
 .container{
  /*   width:1400px; height:740px; margin:auto auto;
     box-shadow: 3px 3px 5px black;border-radius:5px;*/
-    background: url(bg1.jpg) no-repeat center center fixed; 
+    background: url(bg1.jpg) no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+}
+.my_menu li
+{
+  display: inline;
+  list-style-type: none;
+  padding-left: 20%;
+  color:white;
+  font-family: 'inheritance_fontregular';
+  font-size:30px;
 }
 .heading{
     -ms-transform: rotate(30deg); /* IE 9 */
@@ -30,8 +39,8 @@ body{
     -ms-transform: rotate(30deg); /* IE 9 */
     -webkit-transform: rotate(30deg); /* Chrome, Safari, Opera */
     transform: rotate(2deg);
-    padding-left:24%;
-    padding-top:25px;
+    padding-left:30%;
+    padding-top:5%;
     font-size:50px;
     position: absolute; top: 0; width: 50%;
     z-index:2;
@@ -73,11 +82,10 @@ body{
 h1{
     font-family: 'inheritance_fontregular';
 }
-.right_text
+.right
 {
-  opacity:0.6;
   font-size:17px;
-  width:500px;height:100px;
+  width:800px;height:100px;
   z-index:-1;
   float:right;
   color:white;
@@ -88,6 +96,11 @@ h1{
   line-height: 150%;
   font-family:'Courier New';
   font-weight:bold;
+}
+.text
+{
+  opacity:0.6;
+
 }
 .left_links
 {
@@ -103,7 +116,7 @@ h1{
   font-weight:bold;
 }
 .write{
-    width:235px; height:198px; 
+    width:235px; height:198px;
     box-shadow: 8px 8px 12px black;border-radius:5px;
     background-image: url("write12.jpg");
     width: 235px;
@@ -119,7 +132,7 @@ h1{
   transition: all 0.5s ease;
 }
 .read{
-    width:235px; height:198px; 
+    width:235px; height:198px;
     box-shadow: 8px 8px 12px black;border-radius:5px;
     background-image: url("read12.jpg");
     background-repeat: no-repeat;
@@ -130,7 +143,7 @@ h1{
   box-shadow: 8px 8px 100px black;*/
   opacity:0.8;
   transition: all 0.5s ease;
- 
+
 }
 .read_title
 {
@@ -148,4 +161,41 @@ h1{
   padding-left: 10%;
   padding-top: 50%;
   font-size:30px;
+}
+
+/*--------------------------------------------------------------------*/
+inputs:-webkit-input-placeholder {
+    color:    #b5b5b5;
+}
+
+inputs-moz-placeholder {
+    color:    #b5b5b5;
+}
+
+ .inputs  {
+ width:170px;
+padding: 15px 25px;
+font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+font-weight: 400;
+font-size: 14px;
+color: #9D9E9E;
+text-shadow: 1px 1px 0 rgba(256, 256, 256, 1.0);
+background: #FFF;
+border: 1px solid #FFF;
+border-radius: 5px;
+box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.50);
+-moz-box-shadow: inset 0 1px 3px rgba(0,0,0,0.50);
+-webkit-box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.50);
+}
+.inputs:focus {
+   background: #DFE9EC;
+color: #414848;
+box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.25);
+-moz-box-shadow: inset 0 1px 2px rgba(0,0,0,0.25);
+-webkit-box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.25);
+    outline:0;
+}
+  .inputs:hover   {
+background: #DFE9EC;
+color: #414848;
 }
