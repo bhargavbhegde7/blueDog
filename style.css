@@ -18,14 +18,24 @@ body{
 {
   display: inline;
   list-style-type: none;
-  padding-left: 20%;
+  padding-left: 15%;
   color:white;
   font-family: 'inheritance_fontregular';
   font-size:30px;
+  text-decoration: none;
+}
+.my_link:hover
+{
+  transition: all 0.2s ease;
+  text-shadow: 4px 4px 1px black;
+}
+a:link{
+  /*color: white !important;*/
+  text-decoration: none;
 }
 .heading{
-    -ms-transform: rotate(30deg); /* IE 9 */
-    -webkit-transform: rotate(30deg); /* Chrome, Safari, Opera */
+    -ms-transform: rotate(4deg); /* IE 9 */
+    -webkit-transform: rotate(4deg); /* Chrome, Safari, Opera */
     transform: rotate(4deg);
     padding-left:5%;
     padding-top:50px;
@@ -36,8 +46,8 @@ body{
 }
 
 .heading_shadow{
-    -ms-transform: rotate(30deg); /* IE 9 */
-    -webkit-transform: rotate(30deg); /* Chrome, Safari, Opera */
+    -ms-transform: rotate(2deg); /* IE 9 */
+    -webkit-transform: rotate(2deg); /* Chrome, Safari, Opera */
     transform: rotate(2deg);
     padding-left:30%;
     padding-top:5%;
