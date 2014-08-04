@@ -39,6 +39,7 @@ $( document ).ready(function() {
 
 });
 /*
+
 function submited()
 {
 	var uname = document.getElementById("uname").value;
