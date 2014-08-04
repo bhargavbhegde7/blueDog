@@ -37,22 +37,66 @@
 						<div class="right" style="float:right">
 
 							<div>
-								<label>login!! I dare you </label>  <br/>
+								<!--<label>login!! I dare you </label>  <br/>-->
 								<label style="color:red" id="login_error"></label>
 							</div>
-							<div>
+							<!--<div>
 								<form  style="float:left;" id="sform" action="#" method="get">
 									<input id="uname" name="uname" placeholder="whatever" type="text" class="inputs">
 									<input id="pwd" name="pwd" placeholder="password" type="password"  class="inputs">
-									<!--<input style="width:150px; height:52px; font-size:20px;" type="submit" value="submit">-->					
+									<input style="width:150px; height:52px; font-size:20px;" type="submit" value="submit">
 								</form>
 								<button id="button_sub" style="margin-left:8px; float:left; width:150px; height:52px; font-size:20px;">
 									click me!!
 								</button>
-							</div>
-
+							</div>-->
+							<!-- //////////////////////////////////////////////////////// -->
 							<div>
-								
+								<form class="cmxform" id="sform" method="get" action="">
+
+										<legend>go ahead and login... I dare you!!</legend>
+
+											<p style="float:left;">
+												<input class="inputs" placeholder="email id" id="cemail" type="email" name="email" required/>
+											</p>
+
+											<p style="float:left; margin-left:8px;">
+												<input class="inputs" placeholder="password" id="pass" type="password" name="password" required/>
+											</p>
+
+											<p style="float:left;">
+												<input style="margin-left:8px; float:left; width:150px; height:50px; font-size:20px;"
+												class="submit" type="submit" value="Submit"/>
+											</p>
+								</form>
+								<script>
+										$("#sform").validate();
+
+													/*
+												$("#sform")
+												    .validate({
+												        rules: {
+												            password: "required",
+												            postcode: {
+												                required: true,
+												                minlength: 3
+												            }
+												        },
+												        messages: {
+												            password: "Field Password is required",
+												            postcode: {
+												                required: "Field PostCode is required",
+												                minlength: "Field PostCode must contain at least 3 characters"
+												            }
+												    });
+														*/
+
+								</script>
+
+							</div>
+							<!-- //////////////////////////////////////////////////////// -->
+							<div>
+
 							</div>
 
 
@@ -86,24 +130,24 @@
 						</div>
 						<div class="left_links" style="float:left;">
 									<div class="left_column" style="float:left; padding-right:0px;">
-												
+
 												<a href="#">
 												<div class="read animated rotateInDownLeft" id="read1">
 													<p class="read_title">READ1</p>
 												</div>
 												</a>
-												
+
 												<a href="#">
 												<div class="write animated rotateInUpLeft" id="write1">
 													<p class="write_title">WRITE1</p>
 												</div>
 												</a>
 									</div>
-									
+
 									<div class="the_devider" style="width:30px; height:500px; float:left;" >
 									</div>
 									<div class="right_column" style="float:left; padding-left:0px;">
-												
+
 												<a href="#">
 												<div class="read animated rotateInDownRight" id="read2">
 													<p class="read_title">READ2</p>
